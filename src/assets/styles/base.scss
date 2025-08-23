@@ -1,0 +1,181 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: #1F5FAC;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
+a,
+button,
+select {
+  cursor: pointer;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid #E9ECEF;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #E9ECEF;
+  border-radius: 5px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #E9ECEF;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.gap-1 {
+  gap: 4px;
+}
+
+.gap-2 {
+  gap: 8px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.btn {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  padding: 7px 12px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: none;
+  transition: all 0.3s;
+}
+
+.btn-border {
+  color: #343A40;
+  border-color: #CED4DA;
+  background-color: #fff;
+
+  &.btn-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    color: #656E7A;
+    padding: 0;
+  }
+
+  &:hover {
+    color: #fff;
+    border-color: #2570CA;
+    background-color: #2570CA;
+  }
+}
+
+.btn-fill {
+  color: #fff;
+  border-color: #2570CA;
+  background-color: #2570CA;
+
+  &:hover {
+    color: #343A40;
+    border-color: #CED4DA;
+    background-color: #fff;
+  }
+}
